@@ -1,4 +1,4 @@
-from PILLOW import Image, ImageDraw
+from PIL import Image, ImageDraw
 
 class VectorMap:
 

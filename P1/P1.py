@@ -120,7 +120,7 @@ def findeNachbar(winkel, von):
     '''
     arr = list(winkel)
     k = cmpKlasse(von)
-    arr = sorted(arr, cmp = k.nachbarCmp) #arr wird nach Entfernung zu "von" sortiert
+    arr = sorted(arr, key = k) #arr wird nach Entfernung zu "von" sortiert
 
     return arr[0]
 
